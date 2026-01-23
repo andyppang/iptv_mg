@@ -1,0 +1,35 @@
+name: Update live.m3u daily
+
+on:
+  schedule:
+    # 每天 01:00 UTC 运行（= 香港时间 09:00）
+    - cron: "0 1 * * *"
+  workflow_dispatch:       # 允许手动点击运行
+
+jobs:
+  update-live-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate live.m3u
+        run: |
+          chmod +x ./generate_m3u.sh
+          ./generate_m3u.sh
+
+      - name: Commit changes if any
+        run: |
+          if git status --porcelain | grep -q "live.m3u"; then
+            git add live.m3u
+            git commit -m "Update live.m3u $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          else
+            echo "No changes in live.m3u"
+          fi
