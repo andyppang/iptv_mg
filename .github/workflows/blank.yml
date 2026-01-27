@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write    # 关键：允许写入代码库内容
+  contents: write
 
 jobs:
   update-live-m3u:
@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # 默认即可，一般可省略
 
       - name: Set up Git user
         run: |
