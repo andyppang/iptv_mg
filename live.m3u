@@ -169,6 +169,16 @@ http://111.230.72.38:1234/962067526
 http://111.230.72.38:1234/962067523
 #EXTINF:-1 tvg-id="广东珠江频道" tvg-name="广东珠江频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/410/202607031111_1782985700437_H32_1080.webp" group-title="地方",广东珠江频道
 http://111.230.72.38:1234/639731952
+#EXTINF:-1 tvg-id="吉林生活频道" tvg-name="吉林生活频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/519/202610192014_1792143470836_H32_1080.webp" group-title="地方",吉林生活频道
+http://111.230.72.38:1234/968553133
+#EXTINF:-1 tvg-id="吉林综艺文化频道" tvg-name="吉林综艺文化频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/520/202610192015_1792143556302_H32_1080.webp" group-title="地方",吉林综艺文化频道
+http://111.230.72.38:1234/968553163
+#EXTINF:-1 tvg-id="吉林乡村频道" tvg-name="吉林乡村频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/521/202610192015_1792143300342_H32_1080.webp" group-title="地方",吉林乡村频道
+http://111.230.72.38:1234/968553176
+#EXTINF:-1 tvg-id="吉林影视频道" tvg-name="吉林影视频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/522/202610192016_1792143524269_H32_1080.webp" group-title="地方",吉林影视频道
+http://111.230.72.38:1234/968553184
+#EXTINF:-1 tvg-id="吉林都市频道" tvg-name="吉林都市频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/523/202610192016_1792143352629_H32_1080.webp" group-title="地方",吉林都市频道
+http://111.230.72.38:1234/968553190
 #EXTINF:-1 tvg-id="建党105周年巡礼" tvg-name="建党105周年巡礼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/527/202606181400_1781762407477_H32_1080.webp" group-title="影视",建党105周年巡礼
 http://111.230.72.38:1234/713600957
 #EXTINF:-1 tvg-id="经典香港电影" tvg-name="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="影视",经典香港电影
